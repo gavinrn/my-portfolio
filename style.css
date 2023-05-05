@@ -1,0 +1,26 @@
+* {
+    font-style: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height:500px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.headings {
+    background-color: gray;
+    width: 30%;
+}
+
+.info {
+    background-color: lightblue;
+    width: 70%;
+}
+
+
+
+
