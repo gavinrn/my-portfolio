@@ -3,16 +3,40 @@
     padding: 0;
 }
 
-ul {
-    background-color: gray;
-    text-align: end;
+nav {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+  }
 
-}
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
 
-li {
-    display: inline;
-    padding: 10px;
-    font-size:larger;
+  nav li {
+    display: inline-block;
+  }
+
+  nav a {
+    display: block;
+    padding: 0 10px;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: #555;
+  }
+
+img {
+    border-radius: 6px;
 }
 
 .aboutMe {
@@ -105,6 +129,37 @@ li {
     background-color: rgb(12, 10, 165);
     color: white;
 }
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 200px;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+}
+
+.contact .heading{
+    flex-wrap: wrap;
+    flex-basis: 12%;
+    text-align: right;
+    font-size: 30px;
+    color:rgb(3, 105, 194);
+    border-right: 5px solid black;
+    padding-right: 18px;
+}
+
+.contact .elements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
 
 
 
